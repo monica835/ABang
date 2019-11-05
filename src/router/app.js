@@ -16,38 +16,46 @@ export default {
     //         tokenRequired: false
     //     }
     // },
-    // {
-    //     path: '/profile',
-    //     name: 'profile',
-    //     component: resolve => require(['components/frame/Profile.vue'], resolve),
-    //     meta: {
-    //         tokenRequired: false
-    //     }
-    // },
-    // {
-    //     path: '/subjects',
-    //     name: 'subjects',
-    //     component: resolve => require(['components/frame/Subjects.vue'], resolve),
-    //     meta: {
-    //         tokenRequired: true
-    //     }
-    // },  
-    // {
-    //     path: '/editprofile',
-    //     name: 'editprofile',
-    //     component: resolve => require(['components/frame/EditProfile.vue'], resolve),
-    //     meta: {
-    //         tokenRequired: false
-    //     }
-    // },
-    // {
-    //     path: '/dashboard',
-    //     name: 'dashboard',
-    //     component: resolve => require(['components/frame/Dashboard.vue'], resolve),
-    //     meta: {
-    //         tokenRequired: true
-    //     }
-    // },
+    {
+        path: '/bus',
+        name: 'bus',
+        component: resolve => require(['components/frame/Bus.vue'], resolve),
+        meta: {
+            tokenRequired: false
+        }
+    },
+    {
+            path: '/car',
+            name: 'car',
+            component: resolve => require(['components/frame/Car.vue'], resolve),
+            meta: {
+                tokenRequired: false
+            }
+        },
+    {
+            path: '/van',
+            name: 'van',
+            component: resolve => require(['components/frame/Van.vue'], resolve),
+            meta: {
+                tokenRequired: false
+            }
+        },
+    {
+            path: '/boat',
+            name: 'boat',
+            component: resolve => require(['components/frame/Boat.vue'], resolve),
+            meta: {
+                tokenRequired: false
+            }
+        },
+    {
+            path: '/motor',
+            name: 'motor',
+            component: resolve => require(['components/frame/Motor.vue'], resolve),
+            meta: {
+                tokenRequired: false
+            }
+        },
     // {
     //     path: '/logout',
     //     name: 'logout',
