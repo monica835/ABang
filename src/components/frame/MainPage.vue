@@ -1,12 +1,7 @@
 <template>
-<div class="form-group has-success has-feedback">
-      <label class="col-sm-2 control-label" for="inputSuccess">Input with success and glyphicon</label>
-      <div class="col-sm-10">
-        <input type="text" class="form-control" id="inputSuccess">
-        <span class="glyphicon glyphicon-ok form-control-feedback"></span>
-      </div>
+
    
-<div class="input-group has-sucess">
+<div class="input-group">
     <input type="text" class="form-control " placeholder="Search this blog">
     <div class="input-group-append">
       <button class="btn btn-secondary" type="button">
@@ -14,7 +9,7 @@
       </button>
     </div>
   </div>
-</div>
+
 </template>
 <style scoped>
 .has-search .form-control {
@@ -25,12 +20,14 @@
 	margin-right: 0px;
     margin-left: 272px;
     margin-top: 293px
+	
 }
 .input-group > .form-control[data-v-941d690c]:not(:last-child), .input-group > .custom-select[data-v-941d690c]:not(:last-child) {
     border-top-right-radius: 0;
     border-bottom-right-radius: 0;
     margin-top: 293px;
     margin-left: 239px;
+	border-color: blue;
 }
 .has-search .form-control-feedback {
     position: absolute;
