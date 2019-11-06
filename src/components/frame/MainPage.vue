@@ -1,132 +1,54 @@
 <template>
-	<mdb-container>
-		<mdb-row>
-			<h1>All Categories</h1>
-			<mdb-card-group deck>
-				<mdb-card class="shadow p-3 mb-5 bg-white rounded">
-					<mdb-view hover>
-						<a href="#!">
-							<mdb-card-image src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSKONtnFRxhJI0h25UIv-6i8QNbWYD5K__O4-czlja4tQCnxU7S&s" alt="Card image cap"></mdb-card-image>
-							<mdb-mask flex-center waves overlay="white-slight"></mdb-mask>
-						</a>
-					</mdb-view>
-					<mdb-card-body>
-						<mdb-card-title>Van</mdb-card-title>
-						<mdb-card-text>Some quick example text to build on the card title and make up the bulk of the
-							card's content.</mdb-card-text>
-						<mdb-btn color="primary" @click="van">See more</mdb-btn>
-					</mdb-card-body>
-				</mdb-card>
-				<mdb-card class="shadow p-3 mb-5 bg-white rounded">
-					<mdb-view hover>
-						<a href="#!">
-							<mdb-card-image src="https://imgd.aeplcdn.com/600x337/cw/ec/33372/Kia-Seltos-Exterior-167737.jpg?wm=0" alt="Card image cap"></mdb-card-image>
-							<mdb-mask flex-center waves overlay="white-slight"></mdb-mask>
-						</a>
-					</mdb-view>
-					<mdb-card-body>
-						<mdb-card-title>Car</mdb-card-title>
-						<mdb-card-text>Some quick example text to build on the card title and make up the bulk of the
-							card's content.</mdb-card-text>
-						<mdb-btn color="primary" @click="car">See more</mdb-btn>
-					</mdb-card-body>
-				</mdb-card>
-				<mdb-card class="shadow p-3 mb-5 bg-white rounded">
-					<mdb-view hover>
-						<a href="#!">
-							<mdb-card-image src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQcjbS80sMRZ_bguOlRMXVlNMgaxjh19us0AUEZ0NlKSnWIQbMa&s" alt="Card image cap"></mdb-card-image>
-							<mdb-mask flex-center waves overlay="white-slight"></mdb-mask>
-						</a>
-					</mdb-view>
-					<mdb-card-body>
-						<mdb-card-title>Motorcycle</mdb-card-title>
-						<mdb-card-text>Some quick example text to build on the card title and make up the bulk of the
-							card's content.</mdb-card-text>
-						<mdb-btn color="primary" @click="motor">See more</mdb-btn>
-					</mdb-card-body>
-				</mdb-card>
-				<mdb-card class="shadow p-3 mb-5 bg-white rounded">
-					<mdb-view hover>
-						<a href="#!">
-							<mdb-card-image src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQ3itnEHkx7F2MbYV04RJT2l35uDye9DFsjIudhWar635DmMmnN&s" alt="Card image cap"></mdb-card-image>
-							<mdb-mask flex-center waves overlay="white-slight"></mdb-mask>
-						</a>
-					</mdb-view>
-					<mdb-card-body>
-						<mdb-card-title>Bus</mdb-card-title>
-						<mdb-card-text>Some quick example text to build on the card title and make up the bulk of the
-							card's content.</mdb-card-text>
-						<mdb-btn color="primary" @click="bus">See more</mdb-btn>
-					</mdb-card-body>
-				</mdb-card>
-				<mdb-card class="shadow p-3 mb-5 bg-white rounded">
-					<mdb-view hover>
-						<a href="#!">
-							<mdb-card-image src="https://c.stocksy.com/a/NfC500/z9/1240333.jpg?1568465714" alt="Card image cap"></mdb-card-image>
-							<mdb-mask flex-center waves overlay="white-slight"></mdb-mask>
-						</a>
-					</mdb-view>
-					<mdb-card-body>
-						<mdb-card-title>Boat</mdb-card-title>
-						<mdb-card-text>Some quick example text to build on the card title and make up the bulk of the
-							card's content.</mdb-card-text>
-						<mdb-btn color="primary" @click="boat">See more</mdb-btn>
-					</mdb-card-body>
-				</mdb-card>
-			</mdb-card-group>
-		</mdb-row>
-	</mdb-container>
+<div class="form-group has-success has-feedback">
+      <label class="col-sm-2 control-label" for="inputSuccess">Input with success and glyphicon</label>
+      <div class="col-sm-10">
+        <input type="text" class="form-control" id="inputSuccess">
+        <span class="glyphicon glyphicon-ok form-control-feedback"></span>
+      </div>
+   
+<div class="input-group has-sucess">
+    <input type="text" class="form-control " placeholder="Search this blog">
+    <div class="input-group-append">
+      <button class="btn btn-secondary" type="button">
+        <i class="fa fa-search"></i>
+      </button>
+    </div>
+  </div>
+</div>
 </template>
-
-<script>
-import AUTH from 'services/auth'
-import ROUTER from 'router'
-	import { mdbContainer, mdbRow, mdbCol, mdbCard, mdbCardImage, mdbCardHeader, mdbCardBody, mdbCardTitle, mdbCardText, mdbCardFooter, mdbCardUp, mdbCardAvatar, mdbCardGroup, mdbBtn, mdbView, mdbMask, mdbIcon } from 'mdbvue';
-	export default {
-		name: 'CardProPage',
-		components: {
-			mdbContainer,
-			mdbRow,
-			mdbCol,
-			mdbCard,
-			mdbCardImage,
-			mdbCardHeader,
-			mdbCardBody,
-			mdbCardTitle,
-			mdbCardText,
-			mdbCardFooter,
-			mdbCardUp,
-			mdbCardAvatar,
-			mdbCardGroup,
-			mdbBtn,
-			mdbView,
-			mdbMask,
-			mdbIcon
-		},
-		methods:{
-			car(){
-				ROUTER.push('/car')
-				},
-			bus(){
-				ROUTER.push('/bus')
-			},
-			boat(){
-				ROUTER.push('/boat')
-			},
-			van(){
-				ROUTER.push('/van')
-			},
-			motor(){
-				ROUTER.push('/motor')
-			}
-		}
-	}
-	
-</script>
 <style scoped>
-h1{
-font-family: 'Courier New', Courier, monospace;
-font-size: 50px;
+.has-search .form-control {
+    padding-left: 2.375rem;
+	border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+    width: -2px;
+	margin-right: 0px;
+    margin-left: 272px;
+    margin-top: 293px
+}
+.input-group > .form-control[data-v-941d690c]:not(:last-child), .input-group > .custom-select[data-v-941d690c]:not(:last-child) {
+    border-top-right-radius: 0;
+    border-bottom-right-radius: 0;
+    margin-top: 293px;
+    margin-left: 239px;
+}
+.has-search .form-control-feedback {
+    position: absolute;
+    z-index: 2;
+    display: block;
+    width: 2.375rem;
+    height: 2.375rem;
+    line-height: 2.375rem;
+    text-align: center;
+    pointer-events: none;
+    color: #aaa;
+}
+.input-group-prepend, .input-group-append {
+    display: -ms-flexbox;
+    display: -webkit-box;
+    display: flex;
+    margin-top: 293px;
+    margin-right: 270px;
 }
 </style>
 
