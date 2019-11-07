@@ -1,18 +1,29 @@
 <template>
 
    
-<div class="input-group">
-    <input type="text" class="form-control " placeholder="Search this blog">
+<!-- <div class="input-group">
+    <input type="text" class="form-control primary " placeholder="Search this blog">
     <div class="input-group-append">
-      <button class="btn btn-secondary" type="button">
-        <i class="fa fa-search"></i>
+      <button class="btn btn-primary" type="button"><i class="fa fa-search"></i>
       </button>
-    </div>
-  </div>
+    </div> -->
+ <div>
+     <h1 class="text">Having some trouble searching for transportation rentals?</h1>
+     <h2 class="textone">Wait and search in Abang.com</h2>
+     <P></P>
+  <div class="wrap">
+   <div class="search">
+      <input type="text" class="searchTerm" placeholder="What are you looking for?">
+      <button type="submit" class="searchButton btn btn">
+        <i class="fa fa-search"></i>
+     </button>
+   </div>
+</div>
+</div>
 
 </template>
 <style scoped>
-.has-search .form-control {
+/* .has-search .form-control {
     padding-left: 2.375rem;
 	border-top-right-radius: 0;
     border-bottom-right-radius: 0;
@@ -27,8 +38,9 @@
     border-bottom-right-radius: 0;
     margin-top: 293px;
     margin-left: 239px;
-	border-color: blue;
-}
+	border-color:  #4C93FF;
+    border:5px solid  #4C93FF;
+} */
 .has-search .form-control-feedback {
     position: absolute;
     z-index: 2;
@@ -47,5 +59,57 @@
     margin-top: 293px;
     margin-right: 270px;
 }
+.search {
+  width: 100%;
+  position: relative;
+  display: flex;
+}
+
+.searchTerm {
+  width: 100%;
+  border: 3px solid #4C93FF;
+  border-right: none;
+  padding: 5px;
+  height: 36px;
+  border-radius: 5px 0 0 5px;
+  outline: none;
+  color: #9DBFAF;
+}
+
+.searchTerm:focus{
+  color: #4C93FF;
+}
+
+.searchButton {
+  width: 40px;
+  height: 36px;
+  border: 1px solid #4C93FF;
+  background: #4C93FF;
+  text-align: center;
+  color: #fff;
+  border-radius: 0 5px 5px 0;
+  cursor: pointer;
+  font-size: 20px;
+}
+
+/*Resize the wrap to see the search bar change!*/
+.wrap{
+  width: 30%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.text{
+    font-family:'Times New Roman', Times, serif;
+    font-size: 20px;
+    margin-top: 266px;
+}
+.textone{
+    font-family:'Times New Roman', Times, serif;
+    font-size: 15px;
+
+}
+
 </style>
 

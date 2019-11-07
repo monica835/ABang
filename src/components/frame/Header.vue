@@ -23,8 +23,10 @@
     <ul class="navbar-nav mr-auto mt-2 mt-lg-0"></ul>
     <form class="form-inline my-2 my-lg-0">
       <!-- <input class="form-control mr-sm-2" type="search" placeholder="Search"> -->
-      <button class="btn btn-outline-primary my-2 my-sm-0 custom-css" type="submit">Register</button>
-       <button class="btn btn-outline-primary my-2 my-sm-0" type="submit">Login</button>
+      <!-- <button class="btn btn-outline-primary my-2 my-sm-0 custom-css" type="submit">Register</button>
+       <button class="btn btn-outline-primary my-2 my-sm-0" type="submit">Login</button> -->
+          <button type="button" class="btn btn-primary">Register</button>
+           <button type="button" class="btn btn-primary">Login</button>
     </form>
   </div>
     </b-navbar>
@@ -36,7 +38,7 @@
    height: 100px;
    -webkit-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
 -moz-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
-box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75); 
+box-shadow: 10px 10px 5px 0px  #4C93FF;
 
 }
 .ml-auto{
@@ -48,6 +50,24 @@ a{
   font-family: cursive;
 
 }
+.btn-primary {
+  font-family: Raleway-SemiBold;
+  font-size: 13px;
+  color: rgba(58, 133, 191, 0.75);
+  letter-spacing: 1px;
+  line-height: 15px;
+  border: 2px solid rgba(58, 133, 191, 0.75);
+  border-radius: 40px;
+  background: transparent;
+  transition: all 0.3s ease 0s;
+}
+
+.btn-primary:hover {
+  color: #FFF;
+  background: rgba(58, 133, 191, 0.75);
+  border: 2px solid rgba(58, 133, 191, 0.75);
+}
+
 
 </style>
 <script>
