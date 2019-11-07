@@ -16,46 +16,7 @@ export default {
     //         tokenRequired: false
     //     }
     // },
-    {
-        path: '/bus',
-        name: 'bus',
-        component: resolve => require(['components/frame/Bus.vue'], resolve),
-        meta: {
-            tokenRequired: false
-        }
-    },
-    {
-            path: '/car',
-            name: 'car',
-            component: resolve => require(['components/frame/Car.vue'], resolve),
-            meta: {
-                tokenRequired: false
-            }
-        },
-    {
-            path: '/van',
-            name: 'van',
-            component: resolve => require(['components/frame/Van.vue'], resolve),
-            meta: {
-                tokenRequired: false
-            }
-        },
-    {
-            path: '/boat',
-            name: 'boat',
-            component: resolve => require(['components/frame/Boat.vue'], resolve),
-            meta: {
-                tokenRequired: false
-            }
-        },
-    {
-            path: '/motor',
-            name: 'motor',
-            component: resolve => require(['components/frame/Motor.vue'], resolve),
-            meta: {
-                tokenRequired: false
-            }
-        },
+  
     // {
     //     path: '/logout',
     //     name: 'logout',
@@ -64,14 +25,14 @@ export default {
     //         tokenRequired: true
     //     }
     // },
-    // {
-    //     path: '/timeline',
-    //     name: 'timeline',
-    //     component: resolve => require(['components/Timeline.vue'], resolve),
-    //     meta: {
-    //         tokenRequired: false
-    //     }
-    // },
+    {
+        path: '/nextpage',
+        name: 'nextpage',
+        component: resolve => require(['components/frame/NextPage.vue'], resolve),
+        meta: {
+            tokenRequired: false
+        }
+    },
     {
             path: '/mainpage',
             name: 'mainpage',
