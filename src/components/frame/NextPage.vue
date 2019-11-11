@@ -10,7 +10,7 @@
           <div class="col-md-9">
             <div class="row py-2">
               <div class="col-md-7 car-image-block">
-                <h3> Available for Transportation Rentals</h3>
+                <h3>Available for Transportation Rentals</h3>
               </div>
 
               <div class="col-md-3">
@@ -28,16 +28,6 @@
                   </select>
                 </div>
               </div>
-
-              <!-- <div class="col-md-2 pt-1">
-                <a href="#">
-                  <i class="fa fa-th fa-2x pr-2"></i>
-                </a>
-
-                <a href="#">
-                  <i class="fa fa-list-ul fa-2x"></i>
-                </a>
-              </div> -->
             </div>
 
             <div class="row border mt-3 border">
@@ -64,7 +54,7 @@
                   <li class="list-inline-item">Gurugram</li>
                 </ul>
 
-                <button type="button" class="btn btn-outline-primary" @click="reserved">Reserved</button>
+                <mdb-btn color="primary" class="mb-3 mr-5" @click="poll = true">Reserved</mdb-btn>
               </div>
             </div>
 
@@ -79,7 +69,7 @@
 
               <div class="col-md-8 card-body">
                 <a href="#">
-                  <h3>Prueba del Hyundai Kona </h3>
+                  <h3>Prueba del Hyundai Kona</h3>
                 </a>
 
                 <h5>Rs.2.1 Lakh</h5>
@@ -92,7 +82,7 @@
                   <li class="list-inline-item">Gurugram</li>
                 </ul>
 
-                <button type="button" class="btn btn-outline-primary"  @click="reserved">Reserved</button>
+                <mdb-btn color="primary" class="mb-3 mr-5" @click="poll = true">Reserved</mdb-btn>
               </div>
             </div>
 
@@ -120,7 +110,7 @@
                   <li class="list-inline-item">Gurugram</li>
                 </ul>
 
-                <button type="button" class="btn btn-outline-primary"  @click="reserved">Reserved</button>
+                <mdb-btn color="primary" class="mb-3 mr-5" @click="poll = true">Reserved</mdb-btn>
               </div>
             </div>
 
@@ -135,7 +125,7 @@
 
               <div class="col-md-8 card-body">
                 <a href="#">
-                  <h3>Indian FTR 1200 </h3>
+                  <h3>Indian FTR 1200</h3>
                 </a>
 
                 <h5>Rs.2.1 Lakh</h5>
@@ -148,7 +138,7 @@
                   <li class="list-inline-item">Gurugram</li>
                 </ul>
 
-                <button type="button" class="btn btn-outline-primary" @click="reserved">Reserved</button>
+              <mdb-btn color="primary" class="mb-3 mr-5" @click="poll = true">Reserved</mdb-btn>
               </div>
             </div>
 
@@ -163,7 +153,7 @@
 
               <div class="col-md-8 card-body">
                 <a href="#">
-                  <h3>RFRS Malaysia-Monoshock Conversion Bolt </h3>
+                  <h3>RFRS Malaysia-Monoshock Conversion Bolt</h3>
                 </a>
 
                 <h5>Rs.2.1 Lakh</h5>
@@ -176,7 +166,7 @@
                   <li class="list-inline-item">Gurugram</li>
                 </ul>
 
-                <button type="button" class="btn btn-outline-primary"  @click="reserved">Reserved</button>
+               <mdb-btn color="primary" class="mb-3 mr-5" @click="poll = true">Reserved</mdb-btn>
               </div>
             </div>
 
@@ -204,7 +194,7 @@
                   <li class="list-inline-item">Gurugram</li>
                 </ul>
 
-                <button type="button" class="btn btn-outline-primary"  @click="reserved">Reserved</button>
+              <mdb-btn color="primary" class="mb-3 mr-5" @click="poll = true">Reserved</mdb-btn>
               </div>
             </div>
 
@@ -232,7 +222,7 @@
                   <li class="list-inline-item">Gurugram</li>
                 </ul>
 
-                <button type="button" class="btn btn-outline-primary"  @click="reserved">Reserved</button>
+                <mdb-btn color="primary" class="mb-3 mr-5" @click="poll = true">Reserved</mdb-btn>
               </div>
             </div>
 
@@ -260,7 +250,7 @@
                   <li class="list-inline-item">Gurugram</li>
                 </ul>
 
-                <button type="button" class="btn btn-outline-primary"  @click="reserved">Reserved</button>
+              <mdb-btn color="primary" class="mb-3 mr-5" @click="poll = true">Reserved</mdb-btn>
               </div>
             </div>
 
@@ -275,7 +265,7 @@
 
               <div class="col-md-8 card-body">
                 <a href="#">
-                  <h3>FlixBus USA </h3>
+                  <h3>FlixBus USA</h3>
                 </a>
 
                 <h5>Rs.2.1 Lakh</h5>
@@ -288,7 +278,7 @@
                   <li class="list-inline-item">Gurugram</li>
                 </ul>
 
-                <button type="button" class="btn btn-outline-primary"  @click="reserved">Reserved</button>
+              <mdb-btn color="primary" class="mb-3 mr-5" @click="poll = true">Reserved</mdb-btn>
               </div>
             </div>
 
@@ -303,7 +293,7 @@
 
               <div class="col-md-8 card-body">
                 <a href="#">
-                  <h3>NISSAN URVAN 15 SEATER BUS </h3>
+                  <h3>NISSAN URVAN 15 SEATER BUS</h3>
                 </a>
 
                 <h5>Rs.2.1 Lakh</h5>
@@ -315,16 +305,16 @@
 
                   <li class="list-inline-item">Gurugram</li>
                 </ul>
-
-                <button type="button" class="btn btn-outline-primary"  @click="reserved">Reserved</button>
+<mdb-btn color="primary" class="mb-3 mr-5" @click="poll = true">Reserved</mdb-btn>
               </div>
             </div>
+
             <div class="row mt-3 border">
               <div class="col-md-4 car-image-block">
                 <a href="#">
                   <img
-                  src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTxzusU-PWLfcgx7LzdsDDKSn0ha2h5icS6P63wz40tPWijUKhm&s"
-                 >
+                    src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTxzusU-PWLfcgx7LzdsDDKSn0ha2h5icS6P63wz40tPWijUKhm&s"
+                  >
                 </a>
               </div>
 
@@ -342,10 +332,10 @@
 
                   <li class="list-inline-item">Gurugram</li>
                 </ul>
-
-                <button type="button" class="btn btn-outline-primary"  @click="reserved">Reserved</button>
+<mdb-btn color="primary" class="mb-3 mr-5" @click="poll = true">Reserved</mdb-btn>
               </div>
             </div>
+
             <div class="row mt-3 border">
               <div class="col-md-4 car-image-block">
                 <a href="#">
@@ -370,9 +360,10 @@
                   <li class="list-inline-item">Gurugram</li>
                 </ul>
 
-                <button type="button" class="btn btn-outline-primary"  @click="reserved">Reserved</button>
+           <mdb-btn color="primary" class="mb-3 mr-5" @click="poll = true">Reserved</mdb-btn>
               </div>
             </div>
+
             <div class="row mt-3 border">
               <div class="col-md-4 car-image-block">
                 <a href="#">
@@ -397,9 +388,10 @@
                   <li class="list-inline-item">Gurugram</li>
                 </ul>
 
-                <button type="button" class="btn btn-outline-primary"  @click="reserved">Reserved</button>
+             <mdb-btn color="primary" class="mb-3 mr-5" @click="poll = true">Reserved</mdb-btn>
               </div>
             </div>
+
             <div class="row mt-3 border">
               <div class="col-md-4 car-image-block">
                 <a href="#">
@@ -411,7 +403,7 @@
 
               <div class="col-md-8 card-body">
                 <a href="#">
-                  <h3>Diving Alona Beach,Panglao </h3>
+                  <h3>Diving Alona Beach,Panglao</h3>
                 </a>
 
                 <h5>Rs.2.1 Lakh</h5>
@@ -424,9 +416,10 @@
                   <li class="list-inline-item">Gurugram</li>
                 </ul>
 
-                <button type="button" class="btn btn-outline-primary"  @click="reserved">Reserved</button>
+               <mdb-btn color="primary" class="mb-3 mr-5" @click="poll = true">Reserved</mdb-btn>
               </div>
             </div>
+
             <div class="row mt-3 border">
               <div class="col-md-4 car-image-block">
                 <a href="#">
@@ -451,9 +444,81 @@
                   <li class="list-inline-item">Gurugram</li>
                 </ul>
 
-                <button type="button" class="btn btn-outline-primary"  @click="reserved">Reserved</button>
+               <mdb-btn color="primary" class="mb-3 mr-5" @click="poll = true">Reserved</mdb-btn>
               </div>
             </div>
+
+            <mdb-container>
+              <!-- trigger modal button -->
+
+              <!-- poll modal -->
+
+              <mdb-modal :show="poll" @close="poll = false" fullHeight info removeBackdrop>
+                <mdb-modal-header center :close="false">
+                  <p class="heading lead" color="primary">Login</p>
+                </mdb-modal-header>
+
+                <mdb-modal-body>
+                  <div class="text-center">
+                    <mdb-icon icon="file-text-o" size="4x" class="mb-3 animated rotateIn"/>
+
+                    <p>
+                      <strong>Your opinion matters</strong>
+                    </p>
+
+                    <p>
+                      Have some ideas how to improve our product?
+                      <strong>Give us your feedback.</strong>
+                    </p>
+                  </div>
+
+                  <hr>
+
+                  <p class="text-center">
+                    <strong>Your rating</strong>
+                  </p>
+
+                  <mdb-input
+                    type="text"
+                    id="option1-1"
+                    name="option1"
+                    placeholder="name"
+                  />
+
+                  <mdb-input
+                    type="text"
+                    id="option1-2"
+                    name="option1"
+                    placeholder="username"
+                  />
+
+                  <mdb-input
+                    type="password"
+                    id="option1-3"
+                    name="option1"
+                    placeholder="password"
+                  />
+
+                  <p class="text-center">
+                    <strong>What could we improve?</strong>
+                  </p>
+
+                  <mdb-textarea :rows="3" label="Your message"/>
+                </mdb-modal-body>
+
+                <mdb-modal-footer center>
+                  <mdb-btn
+                    color="primary"
+                    @click="poll = false"
+                    icon="paper-plane"
+                    iconRight
+                    iconClass="ml-1 white-text"
+                  >Send</mdb-btn>
+
+                  <mdb-btn outline="primary" @click="poll = false">Cancel</mdb-btn>
+                </mdb-modal-footer>
+              </mdb-modal>
+            </mdb-container>
           </div>
         </div>
       </div>
@@ -461,45 +526,54 @@
   </div>
 </template>
 <style scoped>
-#mainpage{
-    margin-top: 5px;
-}
-.container {
-    width: 100%;
-    padding-right: 15px;
-    padding-left: 15px;
-    margin-right: auto;
-    margin-left: auto;
-    margin-top: 100px;
-    /* border:3px solid blue; */
-}
-.border{
-  border:2px solid blue;
+#mainpage {
+  margin-top: 5px;
 }
 
+.container {
+  width: 100%;
+
+  padding-right: 15px;
+
+  padding-left: 15px;
+
+  margin-right: auto;
+
+  margin-left: auto;
+
+  margin-top: 100px;
+
+  /* border:3px solid blue; */
+}
+
+.border {
+  border: 2px solid blue;
+}
 </style>
 <script>
-import ROUTER from 'router'
+import ROUTER from "router";
+
 export default {
-  name: 'nextpage',
-props: [],
-mounted() {
+  name: "nextpage",
 
-},
-data() {
-  return {
-    // date: new Date().toJSON.split('T')[0],
-    date: new Date(),
+  props: [],
+
+  mounted() {},
+
+  data() {
+    return {
+      // date: new Date().toJSON.split('T')[0],
+
+      poll: false
+    };
+  },
+
+  methods: {
+    reserved() {
+      ROUTER.push("/login");
+    }
   }
-},
-methods: {
-  reserved(){
-    ROUTER.push('/login');
-  }
-},
-
- }
-
+};
 </script>
 
 
