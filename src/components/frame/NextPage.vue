@@ -1,9 +1,7 @@
 <template>
   <div>
     <Header></Header>
-
     <MainPage class="mainpage"></MainPage>
-
     <div class="cars-horizon">
       <div class="container">
         <div class="row">
@@ -12,24 +10,18 @@
               <div class="col-md-7 car-image-block">
                 <h3>Available for Transportation Rentals</h3>
               </div>
-
               <div class="col-md-3">
                 <div class="form-group">
                   <select class="form-control" id="sel1">
                     <option>Relevance</option>
-
                     <option>Price: Low to High</option>
-
                     <option>Price: High to Low</option>
-
                     <option>Kms: Low to High</option>
-
                     <option>Model: Newest to Oldest</option>
                   </select>
                 </div>
               </div>
             </div>
-
             <div class="row border mt-3 border">
               <div class="col-md-4 car-image-block">
                 <a href="#">
@@ -38,26 +30,19 @@
                   >
                 </a>
               </div>
-
               <div class="col-md-8 card-body">
                 <a href="#">
                   <h3>Subaru WRX</h3>
                 </a>
-
                 <h5>Rs.2.1 Lakh</h5>
-
                 <ul class="list-inline">
                   <li class="list-inline-item">44,114 Km</li>
-
                   <li class="list-inline-item">Petrol</li>
-
                   <li class="list-inline-item">Gurugram</li>
                 </ul>
-
                 <mdb-btn color="primary" class="mb-3 mr-5" @click="poll = true">Reserved</mdb-btn>
               </div>
             </div>
-
             <div class="row mt-3 border">
               <div class="col-md-4 car-image-block">
                 <a href="#">
@@ -66,26 +51,19 @@
                   >
                 </a>
               </div>
-
               <div class="col-md-8 card-body">
                 <a href="#">
                   <h3>Prueba del Hyundai Kona</h3>
                 </a>
-
                 <h5>Rs.2.1 Lakh</h5>
-
                 <ul class="list-inline">
                   <li class="list-inline-item">44,114 Km</li>
-
                   <li class="list-inline-item">Petrol</li>
-
                   <li class="list-inline-item">Gurugram</li>
                 </ul>
-
                 <mdb-btn color="primary" class="mb-3 mr-5" @click="poll = true">Reserved</mdb-btn>
               </div>
             </div>
-
             <div class="row mt-3 border">
               <div class="col-md-4 car-image-block">
                 <a href="#">
@@ -94,26 +72,19 @@
                   >
                 </a>
               </div>
-
               <div class="col-md-8 card-body">
                 <a href="#">
                   <h3>Kia’s latest Seltos TVC</h3>
                 </a>
-
                 <h5>Rs.2.1 Lakh</h5>
-
                 <ul class="list-inline">
                   <li class="list-inline-item">44,114 Km</li>
-
                   <li class="list-inline-item">Petrol</li>
-
                   <li class="list-inline-item">Gurugram</li>
                 </ul>
-
                 <mdb-btn color="primary" class="mb-3 mr-5" @click="poll = true">Reserved</mdb-btn>
               </div>
             </div>
-
             <div class="row mt-3 border">
               <div class="col-md-4 car-image-block">
                 <a href="#">
@@ -122,26 +93,19 @@
                   >
                 </a>
               </div>
-
               <div class="col-md-8 card-body">
                 <a href="#">
                   <h3>Indian FTR 1200</h3>
                 </a>
-
                 <h5>Rs.2.1 Lakh</h5>
-
                 <ul class="list-inline">
                   <li class="list-inline-item">44,114 Km</li>
-
                   <li class="list-inline-item">Petrol</li>
-
                   <li class="list-inline-item">Gurugram</li>
                 </ul>
-
               <mdb-btn color="primary" class="mb-3 mr-5" @click="poll = true">Reserved</mdb-btn>
               </div>
             </div>
-
             <div class="row mt-3 border">
               <div class="col-md-4 car-image-block">
                 <a href="#">
@@ -150,26 +114,19 @@
                   >
                 </a>
               </div>
-
               <div class="col-md-8 card-body">
                 <a href="#">
                   <h3>RFRS Malaysia-Monoshock Conversion Bolt</h3>
                 </a>
-
                 <h5>Rs.2.1 Lakh</h5>
-
                 <ul class="list-inline">
                   <li class="list-inline-item">44,114 Km</li>
-
                   <li class="list-inline-item">Petrol</li>
-
                   <li class="list-inline-item">Gurugram</li>
                 </ul>
-
                <mdb-btn color="primary" class="mb-3 mr-5" @click="poll = true">Reserved</mdb-btn>
               </div>
             </div>
-
             <div class="row mt-3 border">
               <div class="col-md-4 car-image-block">
                 <a href="#">
@@ -178,26 +135,19 @@
                   >
                 </a>
               </div>
-
               <div class="col-md-8 card-body">
                 <a href="#">
                   <h3>New Super Power PK 150 Archi 2019</h3>
                 </a>
-
                 <h5>Rs.2.1 Lakh</h5>
-
                 <ul class="list-inline">
                   <li class="list-inline-item">44,114 Km</li>
-
                   <li class="list-inline-item">Petrol</li>
-
                   <li class="list-inline-item">Gurugram</li>
                 </ul>
-
               <mdb-btn color="primary" class="mb-3 mr-5" @click="poll = true">Reserved</mdb-btn>
               </div>
             </div>
-
             <div class="row mt-3 border">
               <div class="col-md-4 car-image-block">
                 <a href="#">
@@ -206,26 +156,19 @@
                   >
                 </a>
               </div>
-
               <div class="col-md-8 card-body">
                 <a href="#">
                   <h3>P2P Bus</h3>
                 </a>
-
                 <h5>Rs.2.1 Lakh</h5>
-
                 <ul class="list-inline">
                   <li class="list-inline-item">44,114 Km</li>
-
                   <li class="list-inline-item">Petrol</li>
-
                   <li class="list-inline-item">Gurugram</li>
                 </ul>
-
                 <mdb-btn color="primary" class="mb-3 mr-5" @click="poll = true">Reserved</mdb-btn>
               </div>
             </div>
-
             <div class="row mt-3 border">
               <div class="col-md-4 car-image-block">
                 <a href="#">
@@ -234,26 +177,19 @@
                   >
                 </a>
               </div>
-
               <div class="col-md-8 card-body">
                 <a href="#">
                   <h3>Whatcom Democrats</h3>
                 </a>
-
                 <h5>Rs.2.1 Lakh</h5>
-
                 <ul class="list-inline">
                   <li class="list-inline-item">44,114 Km</li>
-
                   <li class="list-inline-item">Petrol</li>
-
                   <li class="list-inline-item">Gurugram</li>
                 </ul>
-
               <mdb-btn color="primary" class="mb-3 mr-5" @click="poll = true">Reserved</mdb-btn>
               </div>
             </div>
-
             <div class="row mt-3 border">
               <div class="col-md-4 car-image-block">
                 <a href="#">
@@ -262,26 +198,19 @@
                   >
                 </a>
               </div>
-
               <div class="col-md-8 card-body">
                 <a href="#">
                   <h3>FlixBus USA</h3>
                 </a>
-
                 <h5>Rs.2.1 Lakh</h5>
-
                 <ul class="list-inline">
                   <li class="list-inline-item">44,114 Km</li>
-
                   <li class="list-inline-item">Petrol</li>
-
                   <li class="list-inline-item">Gurugram</li>
                 </ul>
-
               <mdb-btn color="primary" class="mb-3 mr-5" @click="poll = true">Reserved</mdb-btn>
               </div>
             </div>
-
             <div class="row mt-3 border">
               <div class="col-md-4 car-image-block">
                 <a href="#">
@@ -290,25 +219,19 @@
                   >
                 </a>
               </div>
-
               <div class="col-md-8 card-body">
                 <a href="#">
                   <h3>NISSAN URVAN 15 SEATER BUS</h3>
                 </a>
-
                 <h5>Rs.2.1 Lakh</h5>
-
                 <ul class="list-inline">
                   <li class="list-inline-item">44,114 Km</li>
-
                   <li class="list-inline-item">Petrol</li>
-
                   <li class="list-inline-item">Gurugram</li>
                 </ul>
 <mdb-btn color="primary" class="mb-3 mr-5" @click="poll = true">Reserved</mdb-btn>
               </div>
             </div>
-
             <div class="row mt-3 border">
               <div class="col-md-4 car-image-block">
                 <a href="#">
@@ -317,25 +240,19 @@
                   >
                 </a>
               </div>
-
               <div class="col-md-8 card-body">
                 <a href="#">
                   <h3>Toyota Hiace Minibus - Toyota NZ</h3>
                 </a>
-
                 <h5>Rs.2.1 Lakh</h5>
-
                 <ul class="list-inline">
                   <li class="list-inline-item">44,114 Km</li>
-
                   <li class="list-inline-item">Petrol</li>
-
                   <li class="list-inline-item">Gurugram</li>
                 </ul>
 <mdb-btn color="primary" class="mb-3 mr-5" @click="poll = true">Reserved</mdb-btn>
               </div>
             </div>
-
             <div class="row mt-3 border">
               <div class="col-md-4 car-image-block">
                 <a href="#">
@@ -344,26 +261,19 @@
                   >
                 </a>
               </div>
-
               <div class="col-md-8 card-body">
                 <a href="#">
                   <h3>C.A.M PLACER-X 3.0L (p54089) - Vehicles->Van</h3>
                 </a>
-
                 <h5>Rs.2.1 Lakh</h5>
-
                 <ul class="list-inline">
                   <li class="list-inline-item">44,114 Km</li>
-
                   <li class="list-inline-item">Petrol</li>
-
                   <li class="list-inline-item">Gurugram</li>
                 </ul>
-
            <mdb-btn color="primary" class="mb-3 mr-5" @click="poll = true">Reserved</mdb-btn>
               </div>
             </div>
-
             <div class="row mt-3 border">
               <div class="col-md-4 car-image-block">
                 <a href="#">
@@ -372,26 +282,19 @@
                   >
                 </a>
               </div>
-
               <div class="col-md-8 card-body">
                 <a href="#">
                   <h3>Diving in Pandan</h3>
                 </a>
-
                 <h5>Rs.2.1 Lakh</h5>
-
                 <ul class="list-inline">
                   <li class="list-inline-item">44,114 Km</li>
-
                   <li class="list-inline-item">Petrol</li>
-
                   <li class="list-inline-item">Gurugram</li>
                 </ul>
-
              <mdb-btn color="primary" class="mb-3 mr-5" @click="poll = true">Reserved</mdb-btn>
               </div>
             </div>
-
             <div class="row mt-3 border">
               <div class="col-md-4 car-image-block">
                 <a href="#">
@@ -400,26 +303,19 @@
                   >
                 </a>
               </div>
-
               <div class="col-md-8 card-body">
                 <a href="#">
                   <h3>Diving Alona Beach,Panglao</h3>
                 </a>
-
                 <h5>Rs.2.1 Lakh</h5>
-
                 <ul class="list-inline">
                   <li class="list-inline-item">44,114 Km</li>
-
                   <li class="list-inline-item">Petrol</li>
-
                   <li class="list-inline-item">Gurugram</li>
                 </ul>
-
                <mdb-btn color="primary" class="mb-3 mr-5" @click="poll = true">Reserved</mdb-btn>
               </div>
             </div>
-
             <div class="row mt-3 border">
               <div class="col-md-4 car-image-block">
                 <a href="#">
@@ -428,31 +324,20 @@
                   >
                 </a>
               </div>
-
               <div class="col-md-8 card-body">
                 <a href="#">
                   <h3>Oslob,Sumilon & Apo Island</h3>
                 </a>
-
                 <h5>Rs.2.1 Lakh</h5>
-
                 <ul class="list-inline">
                   <li class="list-inline-item">44,114 Km</li>
-
                   <li class="list-inline-item">Petrol</li>
-
                   <li class="list-inline-item">Gurugram</li>
                 </ul>
-
                <mdb-btn color="primary" class="mb-3 mr-5" @click="poll = true">Reserved</mdb-btn>
               </div>
             </div>
-
-            <mdb-container>
-              <!-- trigger modal button -->
-
-              <!-- poll modal -->
-
+            <mdb-container>      
               <mdb-modal :show="poll" @close="poll = false" fullHeight info removeBackdrop>
                 <mdb-modal-header center :close="false">
                   <p class="heading lead">Login</p>
@@ -461,51 +346,41 @@
                 <mdb-modal-body>
                   <div class="text-center">
                     <mdb-icon icon="file-text-o" size="4x" class="mb-3 animated rotateIn"/>
-
                     <p>
                       <strong>Your opinion matters</strong>
                     </p>
-
                     <p>
                       Have some ideas how to improve our product?
                       <strong>Give us your feedback.</strong>
                     </p>
                   </div>
-
                   <hr>
-
                   <p class="text-center">
                     <strong>Your rating</strong>
                   </p>
-
                   <mdb-input
                     type="text"
                     id="option1-1"
                     name="option1"
                     placeholder="name"
                   />
-
                   <mdb-input
                     type="text"
                     id="option1-2"
                     name="option1"
                     placeholder="username"
                   />
-
                   <mdb-input
                     type="password"
                     id="option1-3"
                     name="option1"
                     placeholder="password"
                   />
-
                   <p class="text-center">
                     <strong>What could we improve?</strong>
                   </p>
-
                   <mdb-textarea :rows="3" label="Your message"/>
                 </mdb-modal-body>
-
                 <mdb-modal-footer center>
                   <mdb-btn
                     color="primary"
@@ -529,30 +404,20 @@
 #mainpage {
   margin-top: 5px;
 }
-
 .container {
   width: 100%;
-
   padding-right: 15px;
-
   padding-left: 15px;
-
   margin-right: auto;
-
   margin-left: auto;
-
   margin-top: 100px;
-
-  /* border:3px solid blue; */
 }
-
 .border {
   border: 2px solid blue;
 }
 </style>
 <script>
 import ROUTER from "router";
-
 export default {
   name: "nextpage",
 
@@ -562,12 +427,9 @@ export default {
 
   data() {
     return {
-      // date: new Date().toJSON.split('T')[0],
-
       poll: false
     };
   },
-
   methods: {
     reserved() {
       ROUTER.push("/login");
