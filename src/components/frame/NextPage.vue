@@ -455,7 +455,7 @@
 
               <mdb-modal :show="poll" @close="poll = false" fullHeight info removeBackdrop>
                 <mdb-modal-header center :close="false">
-                  <p class="heading lead" color="primary">Login</p>
+                  <p class="heading lead">Login</p>
                 </mdb-modal-header>
 
                 <mdb-modal-body>
