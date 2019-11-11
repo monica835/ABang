@@ -7,8 +7,7 @@
                     <div class="row">
                         <div class="col-lg-3 col-md-3 col-sm-12 p-0">
                           <select class="form-control search-slt">
-                            `<option class="datepicker">Choose your Choices</option>
-<!--                               4 stars and up --> 
+                            <option class="datepicker">Choose your Choices</option>
                               <option>Car</option>
                               <option>Van</option>
                               <option>Motorcycle</option>
