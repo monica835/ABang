@@ -379,7 +379,10 @@
                   <p class="text-center">
                     <strong>What could we improve?</strong>
                   </p>
-                  <mdb-textarea :rows="3" label="Your message"/>
+                  <mdb-textarea :rows="3" label="Your message"/><br>
+                  <p>
+                      <strong>Don't have an account?<u><a @click="register">Register</a></u> first!</strong>
+                    </p>
                 </mdb-modal-body>
                 <mdb-modal-footer center>
                   <mdb-btn
