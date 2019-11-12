@@ -360,15 +360,9 @@
                   </p>
                   <mdb-input
                     type="text"
-                    id="option1-1"
-                    name="option1"
-                    placeholder="name"
-                  />
-                  <mdb-input
-                    type="text"
                     id="option1-2"
                     name="option1"
-                    placeholder="username"
+                    placeholder="email"
                   />
                   <mdb-input
                     type="password"
@@ -385,9 +379,7 @@
                     </p>
                 </mdb-modal-body>
                 <mdb-modal-footer center>
-                  <mdb-btn
-                    color="primary"
-                    @click="poll = false"
+                  <mdb-btn color="primary"  @click="send"
                     icon="paper-plane"
                     iconRight
                     iconClass="ml-1 white-text"
@@ -434,8 +426,11 @@ export default {
     };
   },
   methods: {
-    reserved() {
-      ROUTER.push("/login");
+    // reserved() {
+    //   ROUTER.push("/login");
+    // },
+    send(){
+      ROUTER.push("/reserved");
     }
   }
 };

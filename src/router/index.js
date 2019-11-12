@@ -5,6 +5,7 @@ import * as mdbvue from 'mdbvue'
 for (const component in mdbvue) {
   Vue.component(component, mdbvue[component])
 }
+
 Vue.use(Router)
 export default new Router({
     routes: ModuleRouter.routes
