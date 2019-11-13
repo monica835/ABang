@@ -83,14 +83,14 @@ option{
 <script>
 import ROUTER from 'router'
 export default {
-name: 'mainpage',
+  name: 'component',
 props: [],
 mounted() {
 
 },
 data() {
   return {
-
+    // date: new Date().toJSON.split('T')[0],
     date: new Date(),
   }
 },

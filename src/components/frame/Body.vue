@@ -1,4 +1,3 @@
-
 <template>
     <div class="appbody"> 
         <transition>
@@ -12,3 +11,4 @@
 export default {
 }
 </script>
+

@@ -1,13 +1,13 @@
 export default {
     routes: [
-    // {
-    //     path: '/login',
-    //     name: 'login',
-    //     component: resolve => require(['components/Login.vue'], resolve),
-    //     meta: {
-    //         tokenRequired: false
-    //     }
-    // },
+    {
+        path: '/login',
+        name: 'login',
+        component: resolve => require(['components/Login.vue'], resolve),
+        meta: {
+            tokenRequired: false
+        }
+    },
     {
         path: '/register',
         name: 'register',
@@ -17,14 +17,14 @@ export default {
         }
     },
   
-    {
-        path: '/reserved',
-        name: 'reserved',
-        component: resolve => require(['components/frame/Reserved.vue'], resolve),
-        meta: {
-            tokenRequired: false
-        }
-    },
+    // {
+    //     path: '/logout',
+    //     name: 'logout',
+    //     component: resolve => require(['components/frame/Logout.vue'], resolve),
+    //     meta: {
+    //         tokenRequired: true
+    //     }
+    // },
     {
         path: '/nextpage',
         name: 'nextpage',
