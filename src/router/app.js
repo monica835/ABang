@@ -17,14 +17,14 @@ export default {
         }
     },
   
-    // {
-    //     path: '/logout',
-    //     name: 'logout',
-    //     component: resolve => require(['components/frame/Logout.vue'], resolve),
-    //     meta: {
-    //         tokenRequired: true
-    //     }
-    // },
+    {
+        path: '/reserved',
+        name: 'reserved',
+        component: resolve => require(['components/frame/Reserved.vue'], resolve),
+        meta: {
+            tokenRequired: false
+        }
+    },
     {
         path: '/nextpage',
         name: 'nextpage',

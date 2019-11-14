@@ -25,8 +25,8 @@
       <!-- <input class="form-control mr-sm-2" type="search" placeholder="Search"> -->
       <!-- <button class="btn btn-outline-primary my-2 my-sm-0 custom-css" type="submit">Register</button>
        <button class="btn btn-outline-primary my-2 my-sm-0" type="submit">Login</button> -->
-          <!-- <button type="button" class="btn btn-primary">Register</button>
-           <button type="button" class="btn btn-primary">Login</button> -->
+          <button type="button" class="btn btn-primary">Register</button>
+           <button type="button" class="btn btn-primary">Login</button>
     </form>
   </div>
     </b-navbar>

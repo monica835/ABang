@@ -52,7 +52,7 @@
     border-radius:0;
     font-family:  Raleway-SemiBold;
 }
-.wrn-btn{
+/* .wrn-btn{
     width: 100%;
     font-size: 16px;
     font-weight: 400;
@@ -60,7 +60,7 @@
     height: calc(3rem + 2px) !important;
     border-radius:0;
     font-family:  Raleway-SemiBold;
-}
+} */
 .datepicker{
   width: 100%;
     font-size: 16px;
@@ -78,6 +78,15 @@
 }
 option{
   font-family: Raleway-SemiBold;
+}
+.col-lg-3 {
+    -ms-flex: 0 0 25%;
+    -webkit-box-flex: 0;
+    flex: 0 0 25%;
+    max-width: 25%;
+    border: 2px solid;
+    border-color: blue;
+    /* border-radius: 20px; */
 }
 </style>
 <script>

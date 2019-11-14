@@ -337,9 +337,9 @@
                <mdb-btn color="primary" class="mb-3 mr-5" @click="poll = true">Reserved</mdb-btn>
               </div>
             </div>
-            <mdb-container>      
+            <mdb-container class="login">      
               <mdb-modal :show="poll" @close="poll = false" fullHeight info removeBackdrop>
-                <mdb-modal-header center :close="false">
+                <mdb-modal-header center :close="false" color="primary">
                   <p class="heading lead">Login</p>
                 </mdb-modal-header>
 
@@ -358,12 +358,7 @@
                   <p class="text-center">
                     <strong>Your rating</strong>
                   </p>
-                  <mdb-input
-                    type="text"
-                    id="option1-1"
-                    name="option1"
-                    placeholder="name"
-                  />
+                 
                   <mdb-input
                     type="text"
                     id="option1-2"
@@ -387,7 +382,7 @@
                 <mdb-modal-footer center>
                   <mdb-btn
                     color="primary"
-                    @click="poll = false"
+                    @click="send"
                     icon="paper-plane"
                     iconRight
                     iconClass="ml-1 white-text"
@@ -414,10 +409,19 @@
   margin-right: auto;
   margin-left: auto;
   margin-top: 100px;
+  /* background-color: aqua; */
+}
+.login{
+  background-color: antiquewhite;
+}
+.modal .modal-full-height .modal-content {
+    width: 100%;
+    background-color: aliceblue;
 }
 .border {
   border: 2px solid blue;
 }
+
 </style>
 <script>
 import ROUTER from "router";
@@ -436,6 +440,9 @@ export default {
   methods: {
     reserved() {
       ROUTER.push("/login");
+    },
+    send(){
+      ROUTER.push("/reserved")
     }
   }
 };
